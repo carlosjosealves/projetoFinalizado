@@ -1,0 +1,101 @@
+.quem-somos {
+  text-align: center;
+}
+
+
+
+.quem-somos__titulo {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+}
+
+.quem-somos__descricao {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.pessoa {
+  display: flex;
+  flex-direction: column;
+}
+
+.pessoas {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.pessoa__nome {
+  margin: 1rem 0;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+}
+
+.link-pessoa {
+  text-decoration: none;
+  color: #030303;
+  font-size: 2rem;
+}
+
+.link-pessoa:hover {
+  color: white;
+}
+
+.pessoa__funcao {
+  color: rgb(0, 0, 0);
+  font-size: 1.25rem;
+}
+
+.pessoa__imagem {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 100%;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+
+.pessoa__imagem--jonatas {
+  background-image: url("../img/pessoas/jonatas2.jpeg");
+  background-repeat: no-repeat;
+}
+
+.pessoa__imagem--imobiliaria {
+  background-image: url("../img/pessoas/logo2.png");
+  background-repeat: no-repeat;
+}
+
+.pessoa__imagem--fabricio {
+  background-image: url("../img/pessoas/fabricio.jpeg");
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 468) {
+  .pessoas {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pessoas {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (min-width: 0) {
+  .pessoa {
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pessoa {
+    margin-bottom: 0;
+  }
+}

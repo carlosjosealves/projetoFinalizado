@@ -1,0 +1,68 @@
+.rodape {
+  background: #000000;
+  text-align: center;
+}
+
+.cont-rodape {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item-rodape {
+  padding: 10px;
+}
+
+.inten-list-rodape {
+  color: aliceblue;
+  list-style: none;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.link-rodape {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 25px;
+}
+
+.link-rodape:hover {
+  color: orangered;
+  font-size: 26px;
+}
+
+.link-rodape-contato {
+  color: white;
+  text-decoration: none;
+}
+
+.link-rodape-contato:hover {
+  color: orangered;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 490px) {
+  .inten-list-rodape {
+    list-style: none;
+    font-size: 18px;
+
+  }
+
+  .item-rodape {
+    padding: 10px;
+  }
+
+  .link-rodape {
+    font-size: 15px;
+  }
+
+  .img-rodape {
+    width: 10%;
+  }
+
+  .link-rodape-contato:hover {
+    color: gold;
+    margin-top: 20px;
+  }
+}
